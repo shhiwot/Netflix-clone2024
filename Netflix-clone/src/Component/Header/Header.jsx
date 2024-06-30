@@ -8,7 +8,6 @@ import "./header.css";
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import ModeEditIcon from "@mui/icons-material/ModeEdit";
 import PersonIcon from "@mui/icons-material/Person";
