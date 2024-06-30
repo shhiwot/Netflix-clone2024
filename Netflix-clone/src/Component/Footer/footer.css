@@ -1,0 +1,41 @@
+.footer_Wrapper {
+  margin-left: 10%;
+  margin-top: 2%;
+}
+.colomun_list a {
+  color: white;
+}
+.icon_Wrapper {
+  display: flex;
+  color: white;
+}
+.icon_Wrapper svg {
+  margin-left: 2.5%;
+}
+.colomun_list a {
+  text-decoration: none;
+  font-size: 11px;
+  opacity: 0.7;
+}
+.last_footerWrapper {
+  margin-top: 4%;
+  font-size: 13px;
+  color: white;
+  margin-left: 10%;
+  opacity: 0.6;
+}
+.service_wrapper {
+      border: 1px solid white;
+    width: 95px;
+    padding: 1.5px 3px 1px 6px;
+    height: 26px;
+}
+.service_wrapper svg{
+  height: 0.7em;
+  margin-top: 10%;
+}
+@media (min-width: 1025px) {
+  .colomun_list a {
+    font-size: 14px;
+  }
+}
