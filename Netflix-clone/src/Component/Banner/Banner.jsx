@@ -1,6 +1,6 @@
-import axios from "../utils/axios";
+import axios from "../../utils/axios";
 // import axios from"axios"
-import requests from "../utils/requests";
+import requests from "../../utils/requests";
 import React, { useEffect, useState } from "react";
 import "./banner.css";
 const Banner = () => {
@@ -35,7 +35,7 @@ const Banner = () => {
       >
         <div className="outer_wrapper"></div>
         <div className="banner_contents">
-          <div  className="header">
+          <div className="header">
             <h1 className="banner_title">
               {movies.title || movies?.name || movies.original_name}
             </h1>

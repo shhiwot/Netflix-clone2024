@@ -6,7 +6,7 @@
 padding-top: 15%;
 }
 .banner_title{
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 800;
   padding-bottom: 0.3em;
   margin-left: 1%;
@@ -67,4 +67,9 @@ opacity: 0.6;
     rgb(37,37,37,0.91),
     #111
   );
+}
+@media (min-width: 768px) {
+.banner_title{
+  font-size: 3em;
+}
 }
