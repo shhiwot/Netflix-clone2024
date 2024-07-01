@@ -22,7 +22,7 @@ const Footer = () => {
         {footerData.map((obj, i) => {
           let { url, title } = obj;
           return (
-            <div className="colomun_list col-6 col-lg-3">
+            <div className="colomun_list col-6 col-lg-3" key={i}>
               <a href={url}>{title}</a>
             </div>
           );

@@ -10,6 +10,7 @@
   color: white;
 }
 .icon_Wrapper svg {
+  margin-top: 1%;
   margin-left: 2.5%;
 }
 .colomun_list a {
