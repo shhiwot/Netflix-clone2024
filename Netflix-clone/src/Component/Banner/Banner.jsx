@@ -5,6 +5,16 @@ import React, { useEffect, useState } from "react";
 import "./banner.css";
 const Banner = () => {
   const [movies, setMovie] = useState({});
+  function truncate(text, maxLength) {
+    if (typeof text !== "string") {
+      return "";
+    }
+    if (text.length > maxLength) {
+      return text.substring(0, maxLength) + "...";
+    } else {
+      return text;
+    }
+  }
   useEffect(() => {
     axios
       .get(requests.fetchNetflixOriginals)
@@ -45,7 +55,9 @@ const Banner = () => {
             <button className="banner_button play ">play</button>
             <button className="banner_button my_list">My List</button>
           </div>
-          {/* <h1 className='banner_description'>{truncate(movies?.overview,150)}</h1> */}
+          <h1 className="banner_description">
+            {truncate(movies?.overview, 150)}
+          </h1>
         </div>
         <div className="banner_fadebottom" />
       </div>

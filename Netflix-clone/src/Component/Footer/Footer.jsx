@@ -10,7 +10,7 @@ import CopyrightIcon from "@mui/icons-material/Copyright";
 import "./footer.css";
 const Footer = () => {
   return (
-    <>
+    <div className="Footerouter_wrapper">
       <div className="icon_Wrapper">
         <FacebookIcon />
         <InstagramIcon />
@@ -35,7 +35,7 @@ const Footer = () => {
         <CopyrightIcon />
         1997-2024 Netflix inc.
       </div>
-    </>
+    </div>
   );
 };
 
