@@ -43,7 +43,8 @@ const Banner = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="outer_wrapper"></div>
+        <div className="outer_wrapper">
+      </div>
         <div className="banner_contents">
           <div className="header">
             <h1 className="banner_title">
